@@ -1,0 +1,39 @@
+# --- secrets -----------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- generated data (created on first run) ------------------------------
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+database/backups/
+exports/*
+!exports/.gitkeep
+logs/*
+!logs/.gitkeep
+cache/
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- virtual environments -------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- editors / OS ------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+# NewsPulse runtime dependencies (Python 3.11+)
+customtkinter>=5.2.2      # modern GUI toolkit (needs Tk; see README for Linux)
+requests>=2.31            # HTTP client for NewsAPI
+beautifulsoup4>=4.12      # permitted page-metadata scraping (og:image / description)
+python-dotenv>=1.0        # reads the NewsAPI key from .env
+pandas>=2.0               # data preparation for analytics and exports
+openpyxl>=3.1             # Excel (.xlsx) export
+matplotlib>=3.7           # analytics charts
+Pillow>=10.0              # images and the logo
